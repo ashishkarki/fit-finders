@@ -1,0 +1,37 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+    2
+    3 # dependencies
+    4 node_modules
+    5 /.pnp
+    6 .pnp.js
+    7
+    8 # testing
+    9 /coverage
+   10
+   11 # next.js
+   12.next/
+   13 out/
+   14
+   15 # production
+   16 /build
+   17
+   18 # misc
+   19 .DS_Store
+   20 *.pem
+   21
+   22 # debug
+   23 npm-debug.log*
+   24 yarn-debug.log*
+   25 yarn-error.log*
+   26
+   27 # local env files
+   28 .env.local
+   29 .env.development.local
+   30 .env.test.local
+   31 .env.production.local
+   32
+   33 # vercel
+   34 .vercel
+   35
+   36 # storybook
+   37 storybook-static
